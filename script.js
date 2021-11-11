@@ -105,7 +105,7 @@ const clearAll = () => {
 
 //desimal
 
-const decimal = document.addEventListener('.decimal')
+const decimal = document.querySelector('.decimal')
 
 decimal.addEventListener('click', (event) => {
     inputDecimal(event.target.value)
